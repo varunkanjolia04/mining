@@ -17,13 +17,13 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   test:
-    name: mining
+   name: Subscrbeit
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-  strategy:
-   fail-fast: false
+   runs-on: ubuntu-latest
+   strategy:
+    fail-fast: false
     matrix:
      runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
    steps:
      - run: |
-        echo Develop with nitin
+          echo vaRUN
